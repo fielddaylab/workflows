@@ -1,7 +1,8 @@
 # Field Day GitHub-CI Action Workflows
+This folder needs to be included as a submodule in the ".github" folder of a project that wishes to use it. See fielddaylab/aqualab for an example use.
 
 ## Unity WebGL Build `WebGL.yml` 
-This workflow will download Unity and create a WebGL build of the project, then capture the build as an artifact and deploy to a specificed host behind a GlobalProtect Firewall. 
+This workflow will download Unity and create a WebGL build of the project, capture the build as an artifact and deploy to a specificed host behind a GlobalProtect Firewall. 
 
 This process requires various "secrets" to be configured in the project's 'Settings > Options > Secrets'.
 
