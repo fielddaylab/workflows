@@ -20,7 +20,7 @@ The trigger for this action is any push to any branch in the repository.
 This build artifact is uploaded to a folder specific to this release version.
 The WebGL build will be placed in DEPLOY_HOST:DEPLOY_DIR/BRANCH
 
-## Unity Activation 'unity-activation.yml'
+## Unity Activation `unity-activation.yml`
 
 [Should be disabled after first use]
 
